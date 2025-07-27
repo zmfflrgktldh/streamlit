@@ -1,5 +1,4 @@
 import streamlit as st
-st.title("⭐이시루의 마이페이지⭐")
 choosed = st.radio("골라보세요",["문어","오징어","말미잘"])
 st.write(f"당신은 {choosed}를 골랐습니다! 당신은 {choosed}입니다!")
 
